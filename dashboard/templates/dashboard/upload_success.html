@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Successful</title>
+</head>
+<body>
+  <h1>Upload Successful</h1>
+  <p>Your file has been processed.</p>
+  {% if upload.result_file %}
+      <img src="{{ upload.result_file.url }}" alt="Processed Result" />
+  {% else %}
+      <p>No result available.</p>
+  {% endif %}
+  <a href="{% url 'dashboard:upload_file' %}">Upload another file</a>
+</body>
+</html>

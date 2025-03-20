@@ -1,0 +1,16 @@
+static/
+/static/*
+__pycache__/
+yolov5/
+
+datasets/*
+
+.env
+*.zip
+*.jpg
+*.jpeg
+*.png
+*.pt
+*.txt
+*.pth
+*.mp4
