@@ -1,7 +1,13 @@
+## Requirements
+
+- Ample storage space.
+- Patience.
+
 ## Files to add:
 
-- `sam_vit_h_4b8939.pth` in main_module/weights directory.
-- Contents of `dataset.zip` in datasets directory in project root.
+- `sam_vit_h_4b8939.pth` in `weights/` in project root directory.
+- Contents of `Raw image pool.zip` in a folder named after itself in `datasets/` directory.
+- Contents of `Grape Disease Dataset.v2-grape-disease-dataset-with-leaves.yolov5pytorch` in a folder named after itself in `dataest/` directory.
 - Install `Yolov5` separately.
   - Note: I just did git clone in main_module directory, it can be cleaned up later as needed.
 - Install SAM model. (Maybe not needed? Yolo seems to also have segmentation.)
@@ -19,6 +25,3 @@
 - Using higher model of YOLO is possible. There are YOLOv11 and v12 available.
   - We will need to consider that these models will be heavier and will take more time in training and running them.
   - Then there's the question of can we run the model on the drone itself.
-
-Somehow pass the weights (2GB+)
-Somehow pass images in zip.
