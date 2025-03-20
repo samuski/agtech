@@ -25,3 +25,7 @@
 - Using higher model of YOLO is possible. There are YOLOv11 and v12 available.
   - We will need to consider that these models will be heavier and will take more time in training and running them.
   - Then there's the question of can we run the model on the drone itself.
+
+## Data sources
+
+- Should be added later.
