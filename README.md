@@ -5,10 +5,11 @@
 
 ## Files to add:
 
-- `sam_vit_h_4b8939.pth` in `weights/` in project root directory.
-- Contents of `Raw image pool.zip` in a folder named after itself in `datasets/` directory.
-- Contents of `Grape Disease Dataset.v2-grape-disease-dataset-with-leaves.yolov5pytorch` in a folder named after itself in `dataest/` directory.
+- Place `best.pt` and [Optional]`sam_vit_h_4b8939.pth` in `weights/` in project root directory.
+- [Optional] Contents of `Raw image pool.zip` in a folder named after itself in `datasets/` directory.
+- [Optional] Contents of `Grape Disease Dataset.v2-grape-disease-dataset-with-leaves.yolov5pytorch` in a folder named after itself in `dataset/` directory.
 - Install `Yolov5` separately.
+  - From project root directory, run `git clone https://github.com/ultralytics/yolov5.git`
   - Note: I just did git clone in main_module directory, it can be cleaned up later as needed.
 - Install SAM model. (Maybe not needed? Yolo seems to also have segmentation.)
 
