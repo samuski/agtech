@@ -22,7 +22,7 @@ def upload_file(request):
             # For demonstration, assume we're processing an image using our detection function
 
             image = cv2.imread(input_file_path)
-            detector = get_leaf_detector('yolov5/runs/train/exp4/weights/best.pt')  # default YOLOv5s if blank
+            detector = get_leaf_detector('./weights/best.pt')  # default YOLOv5s if blank
             detections = detector.detect(image)
             # Draw detections on the image
             for det in detections:
