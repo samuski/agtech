@@ -16,6 +16,7 @@
 ## Instructions
 
 - Main dashboard and services: `docker-compose up -d --build`
+  - Debug Note: On Windows, if getting `exec /app/entrypoint.sh: no such file or directory` in container log, this is due to .sh formatting. Switch from CRLF to LF.
 - Segmentation: From Docker exec, cd to `main_module/` and run `python segmentation.py`.
   - This is hardcoded to run on the images in `"raw image pool"/` in `datasets/` directory in root.
 - Training: From Docker exec, cd to `main_module/yolov5` and run the train command.
