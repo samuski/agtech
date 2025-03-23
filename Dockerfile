@@ -78,7 +78,9 @@ RUN pip install git+https://github.com/facebookresearch/segment-anything.git
 COPY . .
 
 # Ensure the entrypoint script is executable
-RUN chmod +x /app/entrypoint.sh
+COPY entrypoint.sh /entrypoint.sh
+RUN dos2unix /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
 # Expose port 8000 for the application
 EXPOSE 8000
