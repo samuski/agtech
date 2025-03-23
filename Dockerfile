@@ -69,7 +69,8 @@ RUN apt-get update && apt-get install -y \
   qt5-default \
   libqt5gui5 \
   libqt5widgets5 \
-  libqt5core5a
+  libqt5core5a \ 
+  dos2unix 
 
 # Meta AI's segmentation tool
 RUN pip install git+https://github.com/facebookresearch/segment-anything.git
