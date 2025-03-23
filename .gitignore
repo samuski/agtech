@@ -12,5 +12,6 @@ datasets/*
 *.png
 *.pt
 *.txt
+!requirements.txt
 *.pth
 *.mp4
