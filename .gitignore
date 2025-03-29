@@ -4,6 +4,7 @@ __pycache__/
 yolov5/
 
 datasets/*
+media/results/
 
 .env
 *.zip
@@ -15,3 +16,4 @@ datasets/*
 !requirements.txt
 *.pth
 *.mp4
+*.gif
